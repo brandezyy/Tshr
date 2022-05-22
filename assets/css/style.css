@@ -1090,6 +1090,7 @@ a:hover {
   height: 100%;
   top: 0;
   left: 0;
+
 }
 
 .card-shadow {
@@ -1521,6 +1522,9 @@ a:hover {
   .card-box-d .card-overlay-hover {
     padding: 15px 40px 5px 35px;
   }
+}
+.card-box-d {
+  max-height: 25rem;
 }
 .card-box-d .title-d {
   transition: 0.3s ease-in-out;
