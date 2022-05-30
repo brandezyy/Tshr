@@ -536,9 +536,10 @@ a:hover {
 
 .navbar-toggle-box {
   display: inline-flex;
+  /* width: 100%; */
+  font-size: 1rem;
   align-items: center;
   justify-content: center;
-  line-height: 0;
   padding: 10px;
 }
 .navbar-toggle-box i {
@@ -570,7 +571,7 @@ a:hover {
 }
 .navbar-default.navbar-trans .nav-item, .navbar-default.navbar-reduce .nav-item {
   position: relative;
-  padding-right: 10px;
+  padding-right: 0px;
   padding-bottom: 8px;
   margin-left: 0;
 }
@@ -580,7 +581,7 @@ a:hover {
   }
 }
 .navbar-default.navbar-trans .nav-link, .navbar-default.navbar-reduce .nav-link {
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: #000000;
   font-weight: 600;
   letter-spacing: 0.03em;
@@ -1089,6 +1090,7 @@ a:hover {
   height: 100%;
   top: 0;
   left: 0;
+
 }
 
 .card-shadow {
@@ -1479,23 +1481,23 @@ a:hover {
   padding: 1rem 3rem 1rem 2.5rem;
 }
 .card-box-ico span {
-  font-size: 4rem;
+  font-size: 2rem;
   color: #000000;
 }
 
 .title-c {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   font-weight: 600;
   margin-left: -40px;
 }
 @media (min-width: 768px) {
   .title-c {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
   }
 }
 @media (min-width: 992px) {
   .title-c {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -1520,6 +1522,9 @@ a:hover {
   .card-box-d .card-overlay-hover {
     padding: 15px 40px 5px 35px;
   }
+}
+.card-box-d {
+  max-height: 25rem;
 }
 .card-box-d .title-d {
   transition: 0.3s ease-in-out;
